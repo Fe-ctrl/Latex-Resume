@@ -20,8 +20,9 @@ A clean LaTeX resume template, ATS-friendly and easily adaptable for any profess
    - `src/cv_portuguese.tex` (for Portuguese)
 2. Open [Overleaf](https://www.overleaf.com/) and create a **New Project** > **Blank Project**.
 3. Paste the code.
-4. **Important:** Replace the `PLACEHOLDERS` with your real data.
-5. Click **Recompile**.
+4. **Important:** Replace the `[PLACEHOLDERS]` with your real data aand then remove the brackets.
+5. The lists do not use brackets and can be fully customized, allowing you to add or remove items as needed.
+6. Click **Recompile**.
 
 ### Option 2: Local Compilation
 1. Clone this repository:
@@ -54,8 +55,9 @@ Um modelo de currículo em LaTeX limpo, amigável para ATS e facilmente adaptáv
    - `src/cv_portuguese.tex` (para Português)
 2. Abra o [Overleaf](https://www.overleaf.com/) e crie um **Novo Projeto** > **Projeto em Branco** (Blank Project).
 3. Cole o código.
-4. **Importante:** Substitua os `PLACEHOLDERS` pelos seus dados reais.
-5. Clique em **Recompile** (Recompilar).
+4. **Importante:** Substitua os `[PLACEHOLDERS]` pelos seus dados reais e depois remova os colchetes.
+5. As listas não utilizam colchetes e podem ser totalmente personalizadas, permitindo adicionar ou remover itens conforme necessário.
+6. Clique em **Recompile** (Recompilar).
 
 ### Opção 2: Compilação Local
 1. Clone este repositório:
