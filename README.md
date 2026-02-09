@@ -1,5 +1,4 @@
 > [!NOTE]
-🇺🇸 **For the English version**, [click here](#en)
 🇧🇷 **Para a versão em Português**, [clique aqui](#pt)
 
 <a name="en"></a>
@@ -37,7 +36,7 @@ A clean, ATS-friendly LaTeX resume template optimized for Software Engineers and
 # 📄 Modelo de Currículo Minimalista em LaTeX
 
 > [!NOTE]
-> 🇺🇸 **For the English version**, [click here](#-read-in-english).
+🇺🇸 **For the English version**, [click here](#en)
 
 Um modelo de currículo em LaTeX limpo, amigável para ATS e otimizado para Engenheiros de Software e Desenvolvedores. Disponível em **Inglês** e **Português**.
 
