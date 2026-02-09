@@ -8,6 +8,12 @@
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{titlesec}
+\usepackage{enumitem}
+\setlist[itemize]{
+    itemsep=0.5pt,
+    topsep=5pt,
+    leftmargin=*,
+}
 % Para quebras de linha em URLs longas
 \usepackage{xurl}
 
@@ -51,11 +57,11 @@
     {\textbullet}
     [+55 19 99999-9999]
     \\ [0.1cm]
-    Email: \href{mailto:email@exemplo.com}{[email@exemplo.com]} 
+    Email: \href{[mailto:email@exemplo.com]}{[email@exemplo.com]} 
     {\textbullet}
-    \href{https://www.linkedin.com/in/seuproflie/}{[LinkedIn]} 
+    \href{[https://www.linkedin.com/in/seuproflie/]}{[Perfil do LinkedIn]} 
     {\textbullet}
-    \href{https://github.com/seuusuario}{[GitHub / Portfólio]}
+    \href{[https://github.com/seuusuario]}{[Perfil do GitHub / Portfólio]}
 \end{center}
 
 % --- SEÇÕES ---
@@ -89,7 +95,7 @@
         
 % ------
 
-\section{Projetos} 
+\section{[Projetos]} 
     % Projetos acadêmicos, freelance ou pessoais
     
     \subsection*{\texorpdfstring{
