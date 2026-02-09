@@ -1,8 +1,8 @@
-> [!NOTE]
-🇧🇷 **Para a versão em Português**, [clique aqui](#pt)
-
 <a name="en"></a>
 # 📄 Minimalist LaTeX Resume Template
+
+> [!NOTE]
+🇧🇷 **Para a versão em Português**, [clique aqui](#pt)
 
 A clean, ATS-friendly LaTeX resume template optimized for Software Engineers and Developers. Available in **English** and **Portuguese**.
 
