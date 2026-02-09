@@ -35,6 +35,9 @@ A clean, ATS-friendly LaTeX resume template optimized for Software Engineers and
    pdflatex src/cv_english.tex
 
 
+
+
+
 <a name="pt"></a>
 # 📄 Modelo de Currículo Minimalista em LaTeX
 
