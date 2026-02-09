@@ -1,0 +1,147 @@
+\documentclass[a4paper,10pt]{article}
+
+% --- PACOTES ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel} % Configurado para Português
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{titlesec}
+% Para quebras de linha em URLs longas
+\usepackage{xurl}
+
+% --- CONFIGURAÇÃO DO DOCUMENTO ---
+% Margens configuradas para maximizar espaço
+\geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+
+% Remove números de página
+\pagestyle{empty}
+
+% Metadados do PDF - IMPORTANTE: Avise seus amigos para mudarem isso!
+\hypersetup{
+    pdftitle={CV Nome Sobrenome},
+    pdfauthor={Nome Sobrenome},
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    bookmarksdepth=1 
+}
+
+% Desabilita numeração de seções
+\setcounter{secnumdepth}{0}
+
+% Formatação dos títulos das seções
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0em}
+{}
+[\titlerule\vspace{0.5ex}]
+
+% --- COMEÇO DO DOCUMENTO ---
+\begin{document}
+
+% --- CABEÇALHO ---
+\begin{center}
+    {\LARGE \textbf{Seu Nome Completo}} 
+    \\ [0.1cm]
+    Cidade, Estado 
+    {\textbullet}
+    +55 19 99999-9999
+    \\ [0.1cm]
+    Email: \href{mailto:email@exemplo.com}{email@exemplo.com} 
+    {\textbullet}
+    \href{https://www.linkedin.com/in/seuproflie/}{LinkedIn} 
+    {\textbullet}
+    \href{https://github.com/seuusuario}{GitHub / Portfólio}
+\end{center}
+
+% --- SEÇÕES ---
+
+\section{Experiência}
+    % Liste a experiência em ordem cronológica inversa (mais recente primeiro)
+    
+    \subsection*{\texorpdfstring{
+            \textbf{Nome da Empresa} \hfill Cidade, Estado
+        }{
+            Nome da Empresa -- Local
+        }}
+    \textit{Cargo / Função \hfill Mês Ano Início -- Mês Ano Fim ou Atualmente}
+        \begin{itemize} 
+            \item Descreva sua principal responsabilidade ou conquista usando verbos de ação.
+            \item Exemplo: Desenvolvi uma nova funcionalidade que reduziu o tempo de carregamento em 30\%.
+            \item Exemplo: Colaborei com uma equipe de X pessoas para entregar o projeto Y.
+        \end{itemize}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Nome da Empresa Anterior} \hfill Cidade, Estado
+        }{
+            Empresa Anterior -- Local
+        }}
+    \textit{Cargo / Função \hfill Mês Ano Início -- Mês Ano Fim}
+        \begin{itemize}
+            \item Mencione uma ferramenta ou tecnologia específica que você usou para resolver um problema.
+            \item Foque em resultados: "Melhorou o processo X fazendo Y".
+            \item Demonstre soft skills como liderança, adaptabilidade ou comunicação.
+        \end{itemize}
+        
+% ------
+
+\section{Projetos} 
+    % Projetos acadêmicos, freelance ou pessoais
+    
+    \subsection*{\texorpdfstring{
+            \textbf{Nome do Projeto} \hfill Contexto: ex. Freelance / TCC / Pessoal
+        }{
+            Nome do Projeto
+        }}
+    \textit{Seu Papel: ex. Desenvolvedor Full Stack}
+        \begin{itemize}
+            \item Descreva brevemente o que é o projeto e qual problema ele resolve.
+            \item Liste as principais tecnologias usadas (ex. React, Node.js, SQL).
+            \item Destaque um desafio específico que você superou durante o desenvolvimento.
+        \end{itemize}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Outro Projeto} \hfill Contexto
+        }{
+            Outro Projeto
+        }}
+    \textit{Seu Papel}
+        \begin{itemize} 
+            \item Descrição das funcionalidades do projeto.
+            \item Resultado ou impacto do projeto.
+        \end{itemize}
+
+% ------
+
+\section{Habilidades}
+    \begin{itemize}
+        \item \textbf{Linguagens e Frameworks:} Lista: ex. Java, Python, C++, React, etc.
+        \item \textbf{Banco de Dados:} Lista: ex. MySQL, MongoDB, PostgreSQL
+        \item \textbf{Ferramentas:} Lista: ex. Git, Docker, AWS, Azure, VS Code
+        \item \textbf{Competências:} Lista: ex. Resolução de Problemas, Trabalho em Equipe, Comunicação
+        \item \textbf{Idiomas:} Idioma Nativo, Segundo Idioma (Nível)
+    \end{itemize}
+
+% ------
+
+\section{Formação Acadêmica}
+    % Use este formato para cada graduação - mais recente primeiro
+    \subsection*{\texorpdfstring{
+            \textbf{Nome da Universidade/Faculdade} \hfill Cidade, Estado
+        }{
+            Universidade -- Local
+        }}
+    \textit{Nome do Curso, ex. Bacharelado em Ciência da Computação \hfill Data Início -- Data Fim ou Previsão}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Instituição Anterior} \hfill Cidade, Estado
+        }{
+            Instituição Anterior -- Local
+        }}
+    \textit{Nome do Curso ou Certificado \hfill Data Início -- Data Fim}
+
+\end{document}
