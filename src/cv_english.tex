@@ -8,6 +8,12 @@
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{titlesec}
+\usepackage{enumitem}
+\setlist[itemize]{
+    itemsep=0.5pt,
+    topsep=5pt,
+    leftmargin=*,
+}
 % For better line breaks in long URLs
 \usepackage{xurl}
 
@@ -18,7 +24,7 @@
 % Remove page numbers and headers for clean resume look
 \pagestyle{empty}
 
-% PDF metadata - IMPORTANT: Tell your friends to change this!
+% PDF metadata - IMPORTANT: Change this with your data!
 \hypersetup{
     pdftitle={CV Name Surname},
     pdfauthor={Name Surname},
@@ -45,30 +51,30 @@
 
 % --- HEADER ---
 \begin{center}
-    {\LARGE \textbf{Your Full Name}} 
+    {\LARGE \textbf{[Your Full Name]}} 
     \\ [0.1cm]
-    City, State -- Country
+    [City, State -- Country]
     {\textbullet}
-    +55 00 00000-0000
+    [+55 00 00000-0000]
     \\ [0.1cm]
-    Email: \href{mailto:email@example.com}{email@example.com} 
+    Email: \href{[mailto:email@example.com]}{[email@example.com]} 
     {\textbullet}
-    \href{https://www.linkedin.com/in/yourprofile/}{LinkedIn Profile} 
+    \href{[https://www.linkedin.com/in/yourprofile/]}{[LinkedIn Profile]} 
     {\textbullet}
-    \href{https://github.com/yourusername}{GitHub Profile}
+    \href{[https://github.com/yourusername]}{[GitHub Profile / Portfolio]}
 \end{center}
 
 % --- SECTIONS ---
 
-\section{Experience}
+\section{[Experience]}
     % List work experience in reverse chronological order (most recent first)
     
     \subsection*{\texorpdfstring{
-            \textbf{Company Name} \hfill [City, Country]
+            \textbf{[Company Name]} \hfill [City, Country]
         }{
-            Company Name -- Location
+            [Company Name -- Location]
         }}
-    \textit{Job Title \hfill Start Month Year -- End Month Year}
+    \textit{[Job Title] \hfill [Start Month Year -- End Month Year]}
         \begin{itemize} 
             \item Describe your main responsibility or achievement here using action verbs.
             \item Example: Developed a new feature that reduced loading time by 30\%.
@@ -76,11 +82,11 @@
         \end{itemize}
 
     \subsection*{\texorpdfstring{
-            \textbf{Previous Company Name} \hfill City, Country
+            \textbf{[Previous Company Name]} \hfill [City, Country]
         }{
-            Previous Company -- Location
+            [Previous Company -- Location]
         }}
-    \textit{Job Title \hfill Start Month Year -- End Month Year}
+    \textit{[Job Title] \hfill [Start Month Year -- End Month Year]}
         \begin{itemize}
             \item Mention a specific tool or technology you used to solve a problem.
             \item Focus on results: "Improved process X by doing Y".
@@ -89,15 +95,15 @@
         
 % ------
 
-\section{Projects} 
+\section{[Projects]} 
     % Include academic projects, freelance work, or personal portfolios
     
     \subsection*{\texorpdfstring{
-            \textbf{Project Name} \hfill Context: e.g. Freelance / Final Project
+            \textbf{[Project Name]} \hfill [Context: e.g. Freelance / Final Project]
         }{
-            Project Name
+            [Project Name]
         }}
-    \textit{Your Role: e.g. Full Stack Developer}
+    \textit{[Your Role: e.g. Full Stack Developer]}
         \begin{itemize}
             \item Briefly describe what the project is and what problem it solves.
             \item List the main technologies used (e.g. React, Node.js, SQL).
@@ -105,11 +111,11 @@
         \end{itemize}
 
     \subsection*{\texorpdfstring{
-            \textbf{Another Project Name} \hfill Context
+            \textbf{[Another Project Name]} \hfill [Context]
         }{
-            Another Project
+            [Another Project]
         }}
-    \textit{Your Role}
+    \textit{[Your Role]}
         \begin{itemize} 
             \item Description of the project functionalities.
             \item Outcome or impact of the project.
@@ -117,7 +123,7 @@
 
 % ------
 
-\section{Skills}
+\section{[Skills]}
     \begin{itemize}
         \item \textbf{Languages \& Frameworks:} List: e.g. Java, Python, C++, React, etc.
         \item \textbf{Databases:} List: e.g. MySQL, MongoDB, PostgreSQL
@@ -128,20 +134,20 @@
 
 % ------
 
-\section{Education}
+\section{[Education]}
     % Use this format for each degree - most recent first
     \subsection*{\texorpdfstring{
-            \textbf{University Name} \hfill City, Country
+            \textbf{[University Name]} \hfill [City, Country]
         }{
-            University Name -- Location
+            [University Name -- Location]
         }}
-    \textit{Degree Title, e.g. B.Sc. in Computer Science \hfill Start Date -- End Date or "Current"}
+    \textit{[Degree Title, e.g. B.Sc. in Computer Science] \hfill [Start Date -- End Date or "Current"]}
 
     \subsection*{\texorpdfstring{
-            \textbf{Previous University or School} \hfill City, Country
+            \textbf{[Previous University or School]} \hfill [City, Country]
         }{
-            Previous School -- Location
+            [Previous School -- Location]
         }}
-    \textit{Degree or Certificate Title \hfill Start Date -- End Date}
+    \textit{[Degree or Certificate Title] \hfill [Start Date -- End Date]}
 
 \end{document}
