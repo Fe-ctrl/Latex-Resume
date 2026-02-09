@@ -1,0 +1,147 @@
+\documentclass[a4paper,10pt]{article}
+
+% --- PACKAGES ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel} % Se o curriculo for em PT-BR, mude para 'portuguese'
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{titlesec}
+% For better line breaks in long URLs
+\usepackage{xurl}
+
+% --- DOCUMENT SETUP ---
+% Set page margins to maximize content space
+\geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+
+% Remove page numbers and headers for clean resume look
+\pagestyle{empty}
+
+% PDF metadata - IMPORTANT: Tell your friends to change this!
+\hypersetup{
+    pdftitle={CV Name Surname},
+    pdfauthor={Name Surname},
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    bookmarksdepth=1 
+}
+
+% Disable section numbering for cleaner appearance
+\setcounter{secnumdepth}{0}
+
+% Format section headers with bold text and underline
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0em}
+{}
+[\titlerule\vspace{0.5ex}]
+
+% --- BEGIN DOCUMENT ---
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\LARGE \textbf{Your Full Name}} 
+    \\ [0.1cm]
+    City, State -- Country
+    {\textbullet}
+    +55 00 00000-0000
+    \\ [0.1cm]
+    Email: \href{mailto:email@example.com}{email@example.com} 
+    {\textbullet}
+    \href{https://www.linkedin.com/in/yourprofile/}{LinkedIn Profile} 
+    {\textbullet}
+    \href{https://github.com/yourusername}{GitHub Profile}
+\end{center}
+
+% --- SECTIONS ---
+
+\section{Experience}
+    % List work experience in reverse chronological order (most recent first)
+    
+    \subsection*{\texorpdfstring{
+            \textbf{Company Name} \hfill [City, Country]
+        }{
+            Company Name -- Location
+        }}
+    \textit{Job Title \hfill Start Month Year -- End Month Year}
+        \begin{itemize} 
+            \item Describe your main responsibility or achievement here using action verbs.
+            \item Example: Developed a new feature that reduced loading time by 30\%.
+            \item Example: Collaborated with a team of X people to deliver project Y.
+        \end{itemize}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Previous Company Name} \hfill City, Country
+        }{
+            Previous Company -- Location
+        }}
+    \textit{Job Title \hfill Start Month Year -- End Month Year}
+        \begin{itemize}
+            \item Mention a specific tool or technology you used to solve a problem.
+            \item Focus on results: "Improved process X by doing Y".
+            \item Demonstrated soft skills like leadership, adaptability, or communication.
+        \end{itemize}
+        
+% ------
+
+\section{Projects} 
+    % Include academic projects, freelance work, or personal portfolios
+    
+    \subsection*{\texorpdfstring{
+            \textbf{Project Name} \hfill Context: e.g. Freelance / Final Project
+        }{
+            Project Name
+        }}
+    \textit{Your Role: e.g. Full Stack Developer}
+        \begin{itemize}
+            \item Briefly describe what the project is and what problem it solves.
+            \item List the main technologies used (e.g. React, Node.js, SQL).
+            \item Highlight a specific challenge you overcame during development.
+        \end{itemize}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Another Project Name} \hfill Context
+        }{
+            Another Project
+        }}
+    \textit{Your Role}
+        \begin{itemize} 
+            \item Description of the project functionalities.
+            \item Outcome or impact of the project.
+        \end{itemize}
+
+% ------
+
+\section{Skills}
+    \begin{itemize}
+        \item \textbf{Languages \& Frameworks:} List: e.g. Java, Python, C++, React, etc.
+        \item \textbf{Databases:} List: e.g. MySQL, MongoDB, PostgreSQL
+        \item \textbf{Tools:} List: e.g. Git, Docker, AWS, Azure, VS Code
+        \item \textbf{Soft Skills:} List: e.g. Problem Solving, Team Leadership, Communication
+        \item \textbf{Languages:} Native Language, Second Language (Level)
+    \end{itemize}
+
+% ------
+
+\section{Education}
+    % Use this format for each degree - most recent first
+    \subsection*{\texorpdfstring{
+            \textbf{University Name} \hfill City, Country
+        }{
+            University Name -- Location
+        }}
+    \textit{Degree Title, e.g. B.Sc. in Computer Science \hfill Start Date -- End Date or "Current"}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Previous University or School} \hfill City, Country
+        }{
+            Previous School -- Location
+        }}
+    \textit{Degree or Certificate Title \hfill Start Date -- End Date}
+
+\end{document}
