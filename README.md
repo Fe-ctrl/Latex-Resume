@@ -4,7 +4,7 @@
 > [!NOTE]
 🇧🇷 **Para a versão em Português**, [clique aqui](#pt)
 
-A clean, ATS-friendly LaTeX resume template optimized for Software Engineers and Developers. Available in **English** and **Portuguese**.
+A clean LaTeX resume template, ATS-friendly and easily adaptable for any professional field. Available in English and Portuguese.
 
 ## Features
 - **ATS Friendly:** Clean text layer, easily readable by recruitment bots.
@@ -20,7 +20,7 @@ A clean, ATS-friendly LaTeX resume template optimized for Software Engineers and
    - `src/cv_portuguese.tex` (for Portuguese)
 2. Open [Overleaf](https://www.overleaf.com/) and create a **New Project** > **Blank Project**.
 3. Paste the code.
-4. **Important:** Replace the `[PLACEHOLDERS]` with your real data.
+4. **Important:** Replace the `PLACEHOLDERS` with your real data.
 5. Click **Recompile**.
 
 ### Option 2: Local Compilation
@@ -38,7 +38,7 @@ A clean, ATS-friendly LaTeX resume template optimized for Software Engineers and
 > [!NOTE]
 🇺🇸 **For the English version**, [click here](#en)
 
-Um modelo de currículo em LaTeX limpo, amigável para ATS e otimizado para Engenheiros de Software e Desenvolvedores. Disponível em **Inglês** e **Português**.
+Um modelo de currículo em LaTeX limpo, amigável para ATS e facilmente adaptável para qualquer área profissional. Disponível em **Inglês** e **Português**.
 
 ## Funcionalidades
 - **Amigável para ATS:** Camada de texto limpa, facilmente legível por robôs de recrutamento.
@@ -54,7 +54,7 @@ Um modelo de currículo em LaTeX limpo, amigável para ATS e otimizado para Enge
    - `src/cv_portuguese.tex` (para Português)
 2. Abra o [Overleaf](https://www.overleaf.com/) e crie um **Novo Projeto** > **Projeto em Branco** (Blank Project).
 3. Cole o código.
-4. **Importante:** Substitua os `[PLACEHOLDERS]` pelos seus dados reais.
+4. **Importante:** Substitua os `PLACEHOLDERS` pelos seus dados reais.
 5. Clique em **Recompile** (Recompilar).
 
 ### Opção 2: Compilação Local
