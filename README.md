@@ -2,7 +2,6 @@
 🇺🇸 **For the English version**, [click here](#en)
 🇧🇷 **Para a versão em Português**, [clique aqui](#pt)
 
-
 <a name="en"></a>
 # 📄 Minimalist LaTeX Resume Template
 
@@ -33,10 +32,6 @@ A clean, ATS-friendly LaTeX resume template optimized for Software Engineers and
    cd Latex-Resume
 3. Compile (example for English):
    pdflatex src/cv_english.tex
-
-
-
-
 
 <a name="pt"></a>
 # 📄 Modelo de Currículo Minimalista em LaTeX
